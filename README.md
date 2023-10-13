@@ -1,5 +1,5 @@
-A personal collection of Bash scripts for Personal, Daily, Server and Cloud Tasks
-I will pre-face that these scripts are primarily made for debian environments
+A personal collection of Bash scripts for Personal,Server and Cloud Tasks.
+I will pre-face that these scripts are primarily written for debian environments.
 
 ## Highlights
 
