@@ -1,4 +1,4 @@
-A personal collection of Bash scripts for Personal,Server and Cloud Tasks.
+A personal collection of Bash scripts for Personal, Server and Cloud Tasks.
 I will pre-face that these scripts are primarily written for debian environments.
 
 ## Highlights
