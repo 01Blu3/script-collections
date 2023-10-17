@@ -1,0 +1,5 @@
+#!/bin/bash
+# Installs the packages used in the Utility scripts
+echo "Installing packages used in Utilities..."
+sudo apt install imagemagick -y
+sudo apt-get install ffmpeg -y

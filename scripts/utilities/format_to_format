@@ -1,8 +1,6 @@
 #!/bin/bash
-# ffmpeg is a universal media decoder
+# ffmpeg is a universal media decoder | script uses ffmpeg
 # So type in the video file you want to transcribe, and then the image format for it
-
-sudo apt-get install ffmpeg -y
 
 ffmpeg -i $1 $2
 
