@@ -1,2 +1,22 @@
 #!/bin/bash
 # Convert all images in a folder to .jpg
+sudo apt install imagemagick -y
+
+# Provide the target folder and the script will change all images in the folder
+# Checks if the target is not a directory
+if [ ! -d $1 ];  then
+    echo "'$1' is not a directory!"
+    exit 1
+else
+    for img in $1/*; do 
+        if [ -f "$img" ]; then
+            f_img="${img##*/}"
+            # Gets the file 'name' only
+            f_img_name="${f_img%.*}"
+            f_converted_img=${f_img_name}.jpg
+            convert $1/$f_img $1/$f_converted_img
+        fi
+    done
+fi
+
+echo "Images have been converted..."
