@@ -9,5 +9,5 @@ I will pre-face that these scripts are primarily written for debian environments
 ## Utility
 
 1. [utility_dependencies_install](scripts/dependencies/utility_dependencies_install) : Install the dependencies for running scripts in the Utility category
-2. [heic_to_jpg](scripts/utilities/heic_to_jpg) : Use [https://imagemagick.org/index.php](imagemagick) to convert all .heic files in a folder to jpg
-3. [format_to_format](scripts/utilities/format_to_format) : Use [https://ffmpeg.org/](ffmpeg) to change from one video format to another
+2. [heic_to_jpg](scripts/utilities/heic_to_jpg) : Use [imagemagick](https://imagemagick.org/index.php) to convert all .heic files in a folder to jpg
+3. [format_to_format](scripts/utilities/format_to_format) : Use [ffmpeg](https://ffmpeg.org/) to change from one video format to another
